@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52ADD8C414F8B0E50061FD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8C314F8B0E50061FD74 /* UIKit.framework */; };
+		52ADD8C614F8B0E50061FD74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8C514F8B0E50061FD74 /* Foundation.framework */; };
+		52ADD8C814F8B0E50061FD74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8C714F8B0E50061FD74 /* CoreGraphics.framework */; };
+		52ADD8CE14F8B0E50061FD74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52ADD8CC14F8B0E50061FD74 /* InfoPlist.strings */; };
+		52ADD8D014F8B0E50061FD74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ADD8CF14F8B0E50061FD74 /* main.m */; };
+		52ADD8D414F8B0E50061FD74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ADD8D314F8B0E50061FD74 /* AppDelegate.m */; };
+		52ADD8D714F8B0E50061FD74 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ADD8D514F8B0E50061FD74 /* MainStoryboard_iPhone.storyboard */; };
+		52ADD8DA14F8B0E50061FD74 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ADD8D814F8B0E50061FD74 /* MainStoryboard_iPad.storyboard */; };
+		52ADD8DD14F8B0E50061FD74 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ADD8DC14F8B0E50061FD74 /* MasterViewController.m */; };
+		52ADD8E014F8B0E50061FD74 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ADD8DF14F8B0E50061FD74 /* DetailViewController.m */; };
+		52ADD8E814F8B0E50061FD74 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8E714F8B0E50061FD74 /* SenTestingKit.framework */; };
+		52ADD8E914F8B0E50061FD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8C314F8B0E50061FD74 /* UIKit.framework */; };
+		52ADD8EA14F8B0E50061FD74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADD8C514F8B0E50061FD74 /* Foundation.framework */; };
+		52ADD8F214F8B0E50061FD74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52ADD8F014F8B0E50061FD74 /* InfoPlist.strings */; };
+		52ADD8F514F8B0E50061FD74 /* termdialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ADD8F414F8B0E50061FD74 /* termdialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ADD8EB14F8B0E50061FD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ADD8B614F8B0E40061FD74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ADD8BE14F8B0E40061FD74;
+			remoteInfo = termdial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52ADD8BF14F8B0E50061FD74 /* termdial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = termdial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ADD8C314F8B0E50061FD74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52ADD8C514F8B0E50061FD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52ADD8C714F8B0E50061FD74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52ADD8CB14F8B0E50061FD74 /* termdial-Info.plist */ = {isa = PBXFileReference; path = "termdial-Info.plist"; sourceTree = "<group>"; };
+		52ADD8CD14F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52ADD8CF14F8B0E50061FD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52ADD8D114F8B0E50061FD74 /* termdial-Prefix.pch */ = {isa = PBXFileReference; path = "termdial-Prefix.pch"; sourceTree = "<group>"; };
+		52ADD8D214F8B0E50061FD74 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		52ADD8D314F8B0E50061FD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52ADD8D614F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		52ADD8D914F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		52ADD8DB14F8B0E50061FD74 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		52ADD8DC14F8B0E50061FD74 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		52ADD8DE14F8B0E50061FD74 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		52ADD8DF14F8B0E50061FD74 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		52ADD8E614F8B0E50061FD74 /* termdialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = termdialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ADD8E714F8B0E50061FD74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		52ADD8EF14F8B0E50061FD74 /* termdialTests-Info.plist */ = {isa = PBXFileReference; path = "termdialTests-Info.plist"; sourceTree = "<group>"; };
+		52ADD8F114F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52ADD8F314F8B0E50061FD74 /* termdialTests.h */ = {isa = PBXFileReference; path = termdialTests.h; sourceTree = "<group>"; };
+		52ADD8F414F8B0E50061FD74 /* termdialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = termdialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ADD8BC14F8B0E40061FD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8C414F8B0E50061FD74 /* UIKit.framework in Frameworks */,
+				52ADD8C614F8B0E50061FD74 /* Foundation.framework in Frameworks */,
+				52ADD8C814F8B0E50061FD74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ADD8E214F8B0E50061FD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8E814F8B0E50061FD74 /* SenTestingKit.framework in Frameworks */,
+				52ADD8E914F8B0E50061FD74 /* UIKit.framework in Frameworks */,
+				52ADD8EA14F8B0E50061FD74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ADD8B414F8B0E40061FD74 = {
+			isa = PBXGroup;
+			children = (
+				52ADD8C914F8B0E50061FD74 /* termdial */,
+				52ADD8ED14F8B0E50061FD74 /* termdialTests */,
+				52ADD8C214F8B0E50061FD74 /* Frameworks */,
+				52ADD8C014F8B0E50061FD74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ADD8C014F8B0E50061FD74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8BF14F8B0E50061FD74 /* termdial.app */,
+				52ADD8E614F8B0E50061FD74 /* termdialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ADD8C214F8B0E50061FD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8C314F8B0E50061FD74 /* UIKit.framework */,
+				52ADD8C514F8B0E50061FD74 /* Foundation.framework */,
+				52ADD8C714F8B0E50061FD74 /* CoreGraphics.framework */,
+				52ADD8E714F8B0E50061FD74 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52ADD8C914F8B0E50061FD74 /* termdial */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8D214F8B0E50061FD74 /* AppDelegate.h */,
+				52ADD8D314F8B0E50061FD74 /* AppDelegate.m */,
+				52ADD8D514F8B0E50061FD74 /* MainStoryboard_iPhone.storyboard */,
+				52ADD8D814F8B0E50061FD74 /* MainStoryboard_iPad.storyboard */,
+				52ADD8DB14F8B0E50061FD74 /* MasterViewController.h */,
+				52ADD8DC14F8B0E50061FD74 /* MasterViewController.m */,
+				52ADD8DE14F8B0E50061FD74 /* DetailViewController.h */,
+				52ADD8DF14F8B0E50061FD74 /* DetailViewController.m */,
+				52ADD8CA14F8B0E50061FD74 /* Supporting Files */,
+			);
+			path = termdial;
+			sourceTree = "<group>";
+		};
+		52ADD8CA14F8B0E50061FD74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8CB14F8B0E50061FD74 /* termdial-Info.plist */,
+				52ADD8CC14F8B0E50061FD74 /* InfoPlist.strings */,
+				52ADD8CF14F8B0E50061FD74 /* main.m */,
+				52ADD8D114F8B0E50061FD74 /* termdial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52ADD8ED14F8B0E50061FD74 /* termdialTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8F314F8B0E50061FD74 /* termdialTests.h */,
+				52ADD8F414F8B0E50061FD74 /* termdialTests.m */,
+				52ADD8EE14F8B0E50061FD74 /* Supporting Files */,
+			);
+			path = termdialTests;
+			sourceTree = "<group>";
+		};
+		52ADD8EE14F8B0E50061FD74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ADD8EF14F8B0E50061FD74 /* termdialTests-Info.plist */,
+				52ADD8F014F8B0E50061FD74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ADD8BE14F8B0E40061FD74 /* termdial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ADD8F814F8B0E50061FD74 /* Build configuration list for PBXNativeTarget "termdial" */;
+			buildPhases = (
+				52ADD8BB14F8B0E40061FD74 /* Sources */,
+				52ADD8BC14F8B0E40061FD74 /* Frameworks */,
+				52ADD8BD14F8B0E40061FD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = termdial;
+			productName = termdial;
+			productReference = 52ADD8BF14F8B0E50061FD74 /* termdial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ADD8E514F8B0E50061FD74 /* termdialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ADD8FB14F8B0E50061FD74 /* Build configuration list for PBXNativeTarget "termdialTests" */;
+			buildPhases = (
+				52ADD8E114F8B0E50061FD74 /* Sources */,
+				52ADD8E214F8B0E50061FD74 /* Frameworks */,
+				52ADD8E314F8B0E50061FD74 /* Resources */,
+				52ADD8E414F8B0E50061FD74 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ADD8EC14F8B0E50061FD74 /* PBXTargetDependency */,
+			);
+			name = termdialTests;
+			productName = termdialTests;
+			productReference = 52ADD8E614F8B0E50061FD74 /* termdialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ADD8B614F8B0E40061FD74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ramkrsna@gmail.com";
+			};
+			buildConfigurationList = 52ADD8B914F8B0E40061FD74 /* Build configuration list for PBXProject "termdial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52ADD8B414F8B0E40061FD74;
+			productRefGroup = 52ADD8C014F8B0E50061FD74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ADD8BE14F8B0E40061FD74 /* termdial */,
+				52ADD8E514F8B0E50061FD74 /* termdialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ADD8BD14F8B0E40061FD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8CE14F8B0E50061FD74 /* InfoPlist.strings in Resources */,
+				52ADD8D714F8B0E50061FD74 /* MainStoryboard_iPhone.storyboard in Resources */,
+				52ADD8DA14F8B0E50061FD74 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ADD8E314F8B0E50061FD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8F214F8B0E50061FD74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52ADD8E414F8B0E50061FD74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ADD8BB14F8B0E40061FD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8D014F8B0E50061FD74 /* main.m in Sources */,
+				52ADD8D414F8B0E50061FD74 /* AppDelegate.m in Sources */,
+				52ADD8DD14F8B0E50061FD74 /* MasterViewController.m in Sources */,
+				52ADD8E014F8B0E50061FD74 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ADD8E114F8B0E50061FD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ADD8F514F8B0E50061FD74 /* termdialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ADD8EC14F8B0E50061FD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ADD8BE14F8B0E40061FD74 /* termdial */;
+			targetProxy = 52ADD8EB14F8B0E50061FD74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ADD8CC14F8B0E50061FD74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ADD8CD14F8B0E50061FD74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52ADD8D514F8B0E50061FD74 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ADD8D614F8B0E50061FD74 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		52ADD8D814F8B0E50061FD74 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ADD8D914F8B0E50061FD74 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		52ADD8F014F8B0E50061FD74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ADD8F114F8B0E50061FD74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ADD8F614F8B0E50061FD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52ADD8F714F8B0E50061FD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ADD8F914F8B0E50061FD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "termdial/termdial-Prefix.pch";
+				INFOPLIST_FILE = "termdial/termdial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52ADD8FA14F8B0E50061FD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "termdial/termdial-Prefix.pch";
+				INFOPLIST_FILE = "termdial/termdial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52ADD8FC14F8B0E50061FD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/termdial.app/termdial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "termdial/termdial-Prefix.pch";
+				INFOPLIST_FILE = "termdialTests/termdialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		52ADD8FD14F8B0E50061FD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/termdial.app/termdial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "termdial/termdial-Prefix.pch";
+				INFOPLIST_FILE = "termdialTests/termdialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ADD8B914F8B0E40061FD74 /* Build configuration list for PBXProject "termdial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ADD8F614F8B0E50061FD74 /* Debug */,
+				52ADD8F714F8B0E50061FD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ADD8F814F8B0E50061FD74 /* Build configuration list for PBXNativeTarget "termdial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ADD8F914F8B0E50061FD74 /* Debug */,
+				52ADD8FA14F8B0E50061FD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ADD8FB14F8B0E50061FD74 /* Build configuration list for PBXNativeTarget "termdialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ADD8FC14F8B0E50061FD74 /* Debug */,
+				52ADD8FD14F8B0E50061FD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ADD8B614F8B0E40061FD74 /* Project object */;
+}
