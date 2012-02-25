@@ -39,23 +39,23 @@
 		52ADD8C314F8B0E50061FD74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52ADD8C514F8B0E50061FD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52ADD8C714F8B0E50061FD74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		52ADD8CB14F8B0E50061FD74 /* termdial-Info.plist */ = {isa = PBXFileReference; path = "termdial-Info.plist"; sourceTree = "<group>"; };
+		52ADD8CB14F8B0E50061FD74 /* termdial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "termdial-Info.plist"; sourceTree = "<group>"; };
 		52ADD8CD14F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52ADD8CF14F8B0E50061FD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52ADD8D114F8B0E50061FD74 /* termdial-Prefix.pch */ = {isa = PBXFileReference; path = "termdial-Prefix.pch"; sourceTree = "<group>"; };
-		52ADD8D214F8B0E50061FD74 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		52ADD8D114F8B0E50061FD74 /* termdial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "termdial-Prefix.pch"; sourceTree = "<group>"; };
+		52ADD8D214F8B0E50061FD74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52ADD8D314F8B0E50061FD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52ADD8D614F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		52ADD8D914F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		52ADD8DB14F8B0E50061FD74 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		52ADD8DB14F8B0E50061FD74 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		52ADD8DC14F8B0E50061FD74 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		52ADD8DE14F8B0E50061FD74 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		52ADD8DE14F8B0E50061FD74 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		52ADD8DF14F8B0E50061FD74 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		52ADD8E614F8B0E50061FD74 /* termdialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = termdialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ADD8E714F8B0E50061FD74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		52ADD8EF14F8B0E50061FD74 /* termdialTests-Info.plist */ = {isa = PBXFileReference; path = "termdialTests-Info.plist"; sourceTree = "<group>"; };
+		52ADD8EF14F8B0E50061FD74 /* termdialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "termdialTests-Info.plist"; sourceTree = "<group>"; };
 		52ADD8F114F8B0E50061FD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52ADD8F314F8B0E50061FD74 /* termdialTests.h */ = {isa = PBXFileReference; path = termdialTests.h; sourceTree = "<group>"; };
+		52ADD8F314F8B0E50061FD74 /* termdialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = termdialTests.h; sourceTree = "<group>"; };
 		52ADD8F414F8B0E50061FD74 /* termdialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = termdialTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
